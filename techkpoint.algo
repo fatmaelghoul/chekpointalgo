@@ -1,0 +1,38 @@
+//read str
+//initiation nw nv l and i to 0
+//while log condition str [i]<> .
+//increment l by 1
+//verify if str[i] is a vouel
+//verify str[i] is a space if true increment nw by 1
+// incrementi by 1
+// at the end of while;
+//write the three results: l,nv; nw
+ 
+END
+ALGORITHM chekpoint
+VAR
+   l, nw, nv ,INTEGER
+   str: STRING
+BEGIN 
+       nw:= 0
+       i:=0
+       l:=0
+       mv:=0
+       Read(str)
+    WHILE (str [i]<> .) DO
+        write l:=1
+IF (str[i]=" ") THE
+    N
+        nW:=nW + 1
+    END_IF
+    IF (str[i] in "aeuioAEUI") THEN
+    nV:=nV +1
+    END_IF
+    i:=i+1
+    write("Number of vowels", nV)
+    write("Number of words", nW+1)
+    write("Number of characters", l+1)
+    END_WHILE
+
+END
+
